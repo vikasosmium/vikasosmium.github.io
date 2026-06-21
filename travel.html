@@ -15,7 +15,7 @@
     }
 
     body {
-        font-family: 'Segoe UI', sans-serif;
+        font-family: 'Segoe UI', Arial, sans-serif;
         background: #f8fafc;
         color: #333;
         line-height: 1.8;
@@ -29,42 +29,37 @@
     }
 
     h1 {
-        font-size: 3.5rem;
-        color: #222;
+        font-size: 4rem;
+        color: #1e293b;
         margin-bottom: 20px;
     }
 
     .subtitle {
         font-size: 1.2rem;
         color: #666;
-        max-width: 700px;
+        max-width: 750px;
         margin: 0 auto 60px;
     }
 
     .places {
-        font-size: 1.15rem;
+        font-size: 1.3rem;
+        font-weight: 500;
         color: #444;
         margin-bottom: 60px;
+        line-height: 2;
     }
 
     .journey-text {
-        max-width: 800px;
+        max-width: 850px;
         margin: auto;
         font-size: 1.1rem;
         color: #555;
     }
 
-    .quote {
-        margin-top: 60px;
-        font-size: 1.3rem;
-        font-style: italic;
-        color: #777;
-    }
-
     .stats {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 60px;
         margin-top: 70px;
         flex-wrap: wrap;
     }
@@ -74,13 +69,21 @@
     }
 
     .stat-number {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: bold;
         color: #2563eb;
     }
 
     .stat-label {
         color: #666;
+        margin-top: 5px;
+    }
+
+    .quote {
+        margin-top: 70px;
+        font-size: 1.3rem;
+        font-style: italic;
+        color: #777;
     }
 
     footer {
@@ -91,11 +94,20 @@
 
     @media (max-width: 768px) {
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.6rem;
+        }
+
+        .subtitle,
+        .journey-text {
+            font-size: 1rem;
+        }
+
+        .places {
+            font-size: 1.1rem;
         }
 
         .stats {
-            gap: 25px;
+            gap: 30px;
         }
     }
 </style>
@@ -111,8 +123,9 @@
     <h1>✈️ My Travel Journey</h1>
 
     <p class="subtitle">
-        Exploring new destinations has been one of the most rewarding experiences of my life.
-        Every place has offered unique memories, breathtaking views, and valuable lessons.
+        Every journey adds a new story to life. From majestic monuments and peaceful mountains
+        to spiritual destinations and scenic landscapes, each place has left me with unforgettable
+        memories and a deeper appreciation for the beauty of the world.
     </p>
 
     <div class="places">
@@ -126,23 +139,34 @@
     </div>
 
     <div class="journey-text">
+
         <p>
-            From witnessing the timeless beauty of the Taj Mahal to enjoying the serene mountains
-            of Bir and Palampur, every destination has left a lasting impression on me.
-            The spiritual atmosphere of Haridwar and Rishikesh brought moments of peace and reflection,
-            while the royal charm of Udaipur showcased India's rich cultural heritage.
+            My travels have taken me through some of India's most beautiful and inspiring destinations.
+            Standing before the magnificent Taj Mahal, exploring the adventure-filled skies of Bir,
+            experiencing the rich heritage of Baijnath, and enjoying the lush greenery of Palampur
+            have all been incredible experiences.
         </p>
 
         <br>
 
         <p>
-            Traveling is more than just visiting places; it is about experiencing different cultures,
-            meeting new people, and creating memories that stay with us forever.
-            Each journey broadens our perspective and reminds us how diverse and beautiful the world truly is.
+            The peaceful surroundings of Lake City, combined with the spiritual atmosphere of
+            Haridwar and Rishikesh, offered moments of reflection, growth, and gratitude.
+            Every destination has taught me something unique and reminded me that the true
+            value of travel lies not only in the places we visit but also in the memories we create.
         </p>
+
+        <br>
+
+        <p>
+            As I continue my journey, I look forward to discovering new destinations,
+            meeting new people, and collecting experiences that will stay with me for a lifetime.
+        </p>
+
     </div>
 
     <div class="stats">
+
         <div class="stat-box">
             <div class="stat-number">7</div>
             <div class="stat-label">Places Explored</div>
@@ -150,17 +174,18 @@
 
         <div class="stat-box">
             <div class="stat-number">100+</div>
-            <div class="stat-label">Memories Made</div>
+            <div class="stat-label">Memories Captured</div>
         </div>
 
         <div class="stat-box">
             <div class="stat-number">∞</div>
-            <div class="stat-label">Adventures Ahead</div>
+            <div class="stat-label">Future Adventures</div>
         </div>
+
     </div>
 
     <p class="quote">
-        "Travel is not just about reaching a destination; it's about collecting stories along the way."
+        "The world is full of beautiful places. Every journey begins with curiosity and ends with memories."
     </p>
 
     <footer>
